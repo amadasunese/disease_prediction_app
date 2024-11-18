@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+.form-section, .prediction-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+footer {
+    background-color: #06325e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.chart-container {
+    margin-top: 20px;
+}
+
+.navbar-dark-blue {
+    background-color: #003366;
+}
