@@ -21,3 +21,88 @@ footer {
 .navbar-dark-blue {
     background-color: #003366;
 }
+
+/* faq */
+
+
+.faq-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.faq-header {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.team-header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.team-container {
+    padding: 30px;
+}
+.team-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+.team-card:hover {
+    transform: scale(1.05);
+}
+.team-card img {
+    border-radius: 8px 8px 0 0;
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    text-align: center;
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #003366;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #003366;
+}
+
+
+.suggest-header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.form-container {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+}
+.btn-primary:hover {
+    background-color: #00509e;
+}
