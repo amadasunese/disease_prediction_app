@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, request, redirect, url_for
 import numpy as np
 import pickle
 
@@ -107,6 +107,38 @@ def predict():
             explanation_text="Unable to generate explanation due to an error.", 
             recommendation_text="No recommendations available."
         )
+
+@app.route('/faq')
+def faq():
+    return render_template('faq.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+
+@app.route('/suggest-improvement', methods=['GET'])
+def suggest_improvement():
+    return render_template('improvement.html')
+
+@app.route('/submit-suggestion', methods=['POST'])
+def submit_suggestion():
+    name = request.form.get('name')
+    email = request.form.get('email')
+    suggestion = request.form.get('suggestion')
+
+    # Process the suggestion (e.g., save to a database or send an email)
+    print(f"Name: {name}, Email: {email}, Suggestion: {suggestion}")
+
+    return redirect(url_for('thank_you'))
+
+@app.route('/thank-you', methods=['GET'])
+def thank_you():
+    return "<h1>Thank you for your suggestion!</h1>"
 
 
 
