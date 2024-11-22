@@ -76,7 +76,27 @@ The **Heart Disease Prediction Application** uses a machine learning model to as
 
 ---
 
+## Click on the link below to explore the model in action
+
+<p>Website: <a href="https://earlydiagnosis.pythonanywhere.com/">https://earlydiagnosis.pythonanywhere.com/</a></p>
 
 ## Authors/Team
+- Ese Amadasun - Team Lead
+- Data Scientist, Web Developer
+- Email: amadasunese@gmail.com
+- Phone: +123-8164659374
 
+<br>
+
+- Favour Ini-Oluwa ISHOLA
+- Data Scientist 
+- phavouredphavour29@gmail.com 
+- +2348085777702
+
+<br>
+
+- Bukola Oguntuyi
+- Data scientist/ Virtual Assistant 
+- bukolajoycetuyi12@gmail.com
+- +2347081275499
 

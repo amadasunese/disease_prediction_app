@@ -1,6 +1,14 @@
-body {
+/* body {
     background-color: #f8f9fa;
+} */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
+
 .form-section, .prediction-section {
     background-color: #f8f9fa;
     padding: 20px;
@@ -13,6 +21,7 @@ footer {
     color: white;
     padding: 10px 0;
     text-align: center;
+    margin-top: auto;
 }
 .chart-container {
     margin-top: 20px;
@@ -48,9 +57,15 @@ footer {
 .team-header {
     background-color: #003366;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
+    margin-top: 2px;
+}
+
+.mission {
+    padding: 5px;
     margin-top: 5px;
+    text-align: justify;
 }
 .team-container {
     padding: 30px;
@@ -66,7 +81,7 @@ footer {
 }
 .team-card img {
     border-radius: 8px 8px 0 0;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
 }
 .card-body {
@@ -105,4 +120,29 @@ footer {
 }
 .btn-primary:hover {
     background-color: #00509e;
+}
+
+/* about page */
+
+.about-header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.content-section {
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature {
+    padding: 10px 0;
+}
+.feature-icon {
+    font-size: 2rem;
+    color: #003366;
+    margin-right: 10px;
 }

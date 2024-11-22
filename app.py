@@ -112,6 +112,10 @@ def predict():
 def faq():
     return render_template('faq.html')
 
+@app.route('/the_team')
+def the_team():
+    return render_template('the_team.html')
+
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -140,6 +144,9 @@ def submit_suggestion():
 def thank_you():
     return "<h1>Thank you for your suggestion!</h1>"
 
+@app.route('/privacy', methods=['GET'])
+def privacy():
+    return render_template('privacy.html')
 
 
 if __name__ == "__main__":
